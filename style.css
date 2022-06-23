@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+}
+#mainimage{
+    width: 65%;
+}
+.navbar ul {
+    margin: 0;
+    padding: 0.5%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+  }
+
+  .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.logo{
+    color: #b51ac0;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+.menu{
+    display: inline;
+    width: 1000px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li{
+    display:inline-block;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+}
+
+  .navbar a:hover {
+    color: #ae06b4;
+    text-decoration: none;
+  }
+
+  .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px 10px 40px 10px;
+    background-image: url('number.png');
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.3s ease-in-out;
+  }
+  .icon-box:hover {
+    transform: translateY(-5px);
+  }
+  .icon {
+    position: absolute;
+    left: -20px;
+    top: calc(50% - 30px);
+  }
+  .icon i {
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+  }
+  .title {
+    margin-left: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .title a {
+    color: #111;
+  }
+  .icon-box:hover {
+    color: #a945c0;
+    transform: scale(1.1);
+  }
+  .icon-box:hover .title a {
+    color: #a945c0;
+    text-decoration: none;
+  }
+  .description {
+    font-size: 14px;
+    margin-left: 40px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  
