@@ -11,35 +11,153 @@
   </head>
   <body>
     <div class="main">
+        <!-------------------------------navbar---------------------------------------->
         <div class="navbar">
-
             <div class="menu">
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">DESIGN</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#games">GAMES</a></li>
+                    <li><a href="#top3">TOP 3</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div>
-          <div class="icon-box" data-aos="fade-up">
+        <!-------------------------------Games---------------------------------------->
+
+          <div class="icon-box" data-aos="fade-up" id="games">
+            <img src="icon/abc.png" class="image-game">
             <h4 class="title"><a href="">Making a word</a></h4>
             <p class="description">is about a list “words” contains many words and a list of letters “letters” that the user can use them to make words</p>
           </div>
+    </div>
         
           <div class="icon-box" data-aos="fade-up">
+            <img src="icon/question.png" class="image-game">
             <h4 class="title"><a href="">Guess Game</a></h4>
             <p class="description">the program choose a random number between 1 to 20 and asks the user to guess what is that number</p>
           </div>
 
           <div class="icon-box" data-aos="fade-up">
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <img src="icon/calculator.png" class="image-game">
+            <h4 class="title"><a href="">Calculation</a></h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
-
+    <!-------------------------------Top 3---------------------------------------->
+    <div>
+      <img src="icon/ranking.png" class="top3" width="50%">
+        <div class="container">
+            <div class="item">
+              <div class="about-detail">
+                <div class="about_img-container">
+                  <div class="about_img-box">
+                    <img src="icon/woman.png" class="item" />
+                  </div>
+                </div>
+                <div class="card_detail-ox">
+                  <h3>
+                    Second player
+                  </h3>
+                  <p>
+                    AMAL
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item" id="top3">
+              <div class="about-detail">
+                <div class="about_img-container">
+                  <div class="about_img-box">
+                    <img src="icon/woman.png" class="item" />
+                  </div>
+                </div>
+                <div class="card_detail-ox">
+                  <h3>
+                    First Player
+                  </h3>
+                  <p>
+                    HUDA
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="about-detail">
+                <div class="about_img-container">
+                  <div class="about_img-box">
+                    <img src="icon/woman.png" class="item" />
+                  </div>
+                </div>
+                <div class="card_detail-ox">
+                  <h3>
+                    Third Player
+                  </h3>
+                  <p>
+                    KADY
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
     </div>
+    <!-- ======= Contact ======= -->
+    <section id="contact" class="contact">
+        <div>
+          <p id="Contact-Us">Contact Us</p>
+        </div>
+
+        <div class="container">
+
+          <div>
+            <div class="item">
+              <h3>Vesperr</h3>
+              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+              <div class="social-links">
+                <a href="#" class="twitter"><img src="icon/294709_circle_twitter_icon.png" width="30px"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"><img src="icon/317752_facebook_social media_social_icon.png" width="30px"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i><img src="icon/instagram.png" width="30px"></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i><img src="icon/670432_linkedin_in_linked_media_social_icon.png" width="30px"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+              <div>
+                <i class="ri-map-pin-line"></i>
+                <p>A108 Adam Street<br>New York, NY 535022</p>
+              </div>
+
+              <div>
+                <i class="ri-mail-send-line"></i>
+                <p>info@example.com</p>
+              </div>
+
+              <div>
+                <i class="ri-phone-line"></i>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+          </div>
+
+          <div class="item">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
   </body>
 </html>
