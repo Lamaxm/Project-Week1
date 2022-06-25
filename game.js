@@ -9,7 +9,7 @@ let chances = 6 ;
 submit.addEventListener("click", GuessNumber);
 
 
-RandomNumber = Math.floor(Math.random() * 50);
+RandomNumber = Math.floor(Math.random() * 51);
 let counter = 0 ; 
 function GuessNumber(){
 if (counter <5){
