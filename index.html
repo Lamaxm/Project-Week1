@@ -7,6 +7,7 @@
     <meta name="description" content="Your description goes here">
     <meta name="keywords" content="one, two, three">
     <link rel="stylesheet" href="style.css">
+    <script async src="main.js"></script>
     <meta name="viewport" content="width=device-width">
   </head>
   <body>
@@ -24,26 +25,39 @@
         </div>
     </div>
     <div>
+        <!-------------------------------login---------------------------------------->
+        <div id="register">
+          <form id="login" class="form">
+            <h2> Login here</h2>
+            <input type="text" id="username" placeholder="Enter your username">
+            <input type="password" id="password" placeholder="Enter your password">
+            <button class="submit" type="submit" onclick="loginfunction()">login</button>
+            <br>
+            <p id="result"></p>
+          </form>
+        </div>
+        
         <!-------------------------------Games---------------------------------------->
-
+        <a href="MakingWord.html"><div class="icon-box" data-aos="fade-up"></div>
           <div class="icon-box" data-aos="fade-up" id="games">
             <img src="icon/abc.png" class="image-game">
             <h4 class="title"><a href="">Making a word</a></h4>
             <p class="description">is about a list “words” contains many words and a list of letters “letters” that the user can use them to make words</p>
           </div>
-    </div>
+    </div></a>
         
-          <div class="icon-box" data-aos="fade-up">
+          <a href="GuessGame.html"><div class="icon-box" data-aos="fade-up">
             <img src="icon/question.png" class="image-game">
             <h4 class="title"><a href="">Guess Game</a></h4>
             <p class="description">the program choose a random number between 1 to 20 and asks the user to guess what is that number</p>
-          </div>
-
+          </div></a>
+          
+          <a href="Calculation.html"><div class="icon-box" data-aos="fade-up">
           <div class="icon-box" data-aos="fade-up">
             <img src="icon/calculator.png" class="image-game">
             <h4 class="title"><a href="">Calculation</a></h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
+          </div></a>
     <!-------------------------------Top 3---------------------------------------->
     <div>
       <img src="icon/ranking.png" class="top3" width="50%">

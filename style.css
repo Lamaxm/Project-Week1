@@ -2,6 +2,49 @@ body{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
 }
+
+/* login */
+.form{
+  width: 250px;
+  height: 380;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  position: absolute;
+  bottom: 20px;
+  right: 870px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.form h2{
+  color: #f3d7f4;
+}
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1 solid purple;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #f3d7f4;
+  letter-spacing: 1px;
+  font-family:sans-serif;
+}
+.submit {
+  background: #c423b9;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.submit:hover {
+  background: #881780;
+}
+
+
+/*navbar*/
 #mainimage{
     width: 65%;
 }
@@ -223,7 +266,7 @@ input, textarea {
   padding: 10px 15px;
 }
 
-button {
+.container button {
   background: #ea37ed;
   border: 0;
   padding: 10px 24px;
@@ -232,7 +275,7 @@ button {
   border-radius: 50px;
 }
 
-button:hover {
+.container button:hover {
   background: #c423b9;
 }
 
@@ -240,4 +283,60 @@ button:hover {
   font-size: 300%;
   color : black;
   font-family:'Times New Roman', Times, serif;
+}
+
+/* Guessing game */
+
+#instructions{
+  position: relative;
+  left: 605px;
+  top: 400px;
+}
+
+#BodyGuessGame{
+  max-width: 500px;
+  margin: auto;
+  background-image: url(GuessGame.png);
+  width: 100%;
+}
+
+#submit{
+  background-color: #00c3ff;
+  box-shadow: 0 5px 0 #0c93bc;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+#submit:active{
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+#background{
+  position:absolute;
+  width: 40%;
+  min-width: 580px;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  padding: 0px 0px 40px 0px;
+}
+/*Making a Word*/
+
+#BodyMakingWord{
+  max-width: 500px;
+  margin: auto;
+  background-image: url(words.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#instructions{
+  position: relative;
+  left: 605px;
+  top: 400px;
 }
